@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.venv/
+.env
+.DS_Store
+.ipynb_checkpoints/
+reproduced_results/
+*.log
+*.trace
+trace.*
+raw_packages/
+raw_malware/

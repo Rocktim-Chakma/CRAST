@@ -1,0 +1,29 @@
+{
+  "artifact": "CRAST paper artifact package",
+  "version": "v4-five-phase-canonical-names",
+  "created_utc": "2026-07-16T10:43:16.497526Z",
+  "phase_count": 5,
+  "phases": [
+    "CRAST_Phase_1_Package_Collection_and_Validation",
+    "CRAST_Phase_2_SysCall_Trace_Collection",
+    "CRAST_Phase_3_Feature_Extraction_and_Dataset_Building",
+    "CRAST_Phase_4_Model_Training_and_Baseline_Evaluation",
+    "CRAST_Phase_5_CRAST_Transfer_Evaluation_and_Analysis"
+  ],
+  "final_feature_matrices": [
+    "data/processed/npm_final_feature_matrix.csv",
+    "data/processed/pypi_final_feature_matrix.csv",
+    "data/processed/combined_final_feature_matrix.csv"
+  ],
+  "main_result_tables": [
+    "results/tables/table_01_same_registry_model_comparison.csv",
+    "results/tables/table_02_group_aware_same_registry_validation.csv",
+    "results/tables/table_03_direct_cross_registry_baseline.csv",
+    "results/tables/table_04_crast_final_transfer_summary.csv",
+    "results/tables/table_05_cross_registry_confusion_matrices.csv",
+    "results/tables/table_06_rank_fusion_ablation.csv",
+    "results/tables/table_07_gamma_sensitivity.csv",
+    "results/tables/table_08_feature_group_ablation.csv"
+  ],
+  "notes": "File names are normalized to canonical paper-table names. The repository is organized into five phases matching the CRAST framework. Local-path worker scripts are preserved where relevant, and final runnable scripts are provided in Reusable_Code_Modules."
+}

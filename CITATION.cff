@@ -1,0 +1,8 @@
+cff-version: 1.2.0
+title: "CRAST: Cross-Registry Anomalous SysCall Tracing for NPM and PyPI"
+message: "If you use this artifact, please cite the associated CRAST paper."
+type: software
+authors:
+  - family-names: "CRAST Authors"
+version: "1.0.0"
+date-released: "2026-07-13"
