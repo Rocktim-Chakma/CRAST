@@ -1,0 +1,5 @@
+timeout_seconds: 120
+strace_options: "-ff -tt -T -s 256 -e trace=%file,%process,%network,%desc"
+run_as_root: false
+separate_home_cache_tmp: true
+pypi_virtualenv: true

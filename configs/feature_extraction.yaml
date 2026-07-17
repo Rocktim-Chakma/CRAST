@@ -1,0 +1,7 @@
+trace_glob: "trace.*"
+labels:
+  benign: 0
+  malicious: 1
+registries:
+  - npm
+  - pypi

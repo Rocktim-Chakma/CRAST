@@ -1,0 +1,9 @@
+seeds: [0, 1, 2, 3, 4, 5, 10, 42, 99, 123]
+n_splits: 5
+n_estimators: 350
+gamma: 1.0
+filter_mode: q75
+top_k: 100
+label_col: label
+registry_col: registry
+package_col: package_name
