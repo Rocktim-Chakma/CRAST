@@ -1,0 +1,5 @@
+audit,count,threshold
+exact_normalized_overlap,0,exact
+near_similarity_overlap,5,0.9
+npm_unique_normalized_names,1367,
+pypi_unique_normalized_names,1363,

@@ -1,0 +1,21 @@
+direction,seed,method,models_used,n_selected_features,source_threshold,target_threshold,source_positive_rate
+NPM -> PyPI,0,Top5_RankFusion,"ExtraTrees,XGBoost,LightGBM,CatBoost,HistGradientBoosting",97,0.51,0.5449796472184533,0.48575305291723203
+PyPI -> NPM,0,ExtraTrees_MeanStd,ExtraTrees,97,0.48,0.48,0.4966078697421981
+NPM -> PyPI,1,Top5_RankFusion,"HistGradientBoosting,LightGBM,CatBoost,XGBoost,ExtraTrees",97,0.5,0.5687924016282225,0.49592944369063774
+PyPI -> NPM,1,ExtraTrees_MeanStd,ExtraTrees,97,0.54,0.54,0.48032564450474896
+NPM -> PyPI,2,Top5_RankFusion,"HistGradientBoosting,CatBoost,ExtraTrees,LightGBM,XGBoost",97,0.51,0.592984227744956,0.4871099050203528
+PyPI -> NPM,2,ExtraTrees_MeanStd,ExtraTrees,97,0.54,0.54,0.4816824966078697
+NPM -> PyPI,3,Top5_RankFusion,"HistGradientBoosting,LightGBM,XGBoost,ExtraTrees,CatBoost",97,0.51,0.5179045564087789,0.4891451831750339
+PyPI -> NPM,3,ExtraTrees_MeanStd,ExtraTrees,97,0.52,0.52,0.48507462686567165
+NPM -> PyPI,4,Top5_RankFusion,"HistGradientBoosting,LightGBM,CatBoost,ExtraTrees,XGBoost",97,0.51,0.5431809436841941,0.4871099050203528
+PyPI -> NPM,4,ExtraTrees_MeanStd,ExtraTrees,97,0.58,0.58,0.47829036635006783
+NPM -> PyPI,5,Top5_RankFusion,"LightGBM,HistGradientBoosting,CatBoost,ExtraTrees,XGBoost",97,0.5,0.5299185888738128,0.49389416553595655
+PyPI -> NPM,5,ExtraTrees_MeanStd,ExtraTrees,97,0.55,0.55,0.4830393487109905
+NPM -> PyPI,10,Top5_RankFusion,"XGBoost,HistGradientBoosting,LightGBM,CatBoost,ExtraTrees",97,0.51,0.5335802485046091,0.4864314789687924
+PyPI -> NPM,10,ExtraTrees_MeanStd,ExtraTrees,97,0.57,0.57,0.48236092265943015
+NPM -> PyPI,42,Top5_RankFusion,"HistGradientBoosting,XGBoost,CatBoost,LightGBM,ExtraTrees",97,0.51,0.5291329217978198,0.48846675712347354
+PyPI -> NPM,42,ExtraTrees_MeanStd,ExtraTrees,97,0.55,0.55,0.48575305291723203
+NPM -> PyPI,99,Top5_RankFusion,"XGBoost,ExtraTrees,LightGBM,HistGradientBoosting,CatBoost",97,0.51,0.5651967435549525,0.4871099050203528
+PyPI -> NPM,99,ExtraTrees_MeanStd,ExtraTrees,97,0.56,0.56,0.4789687924016282
+NPM -> PyPI,123,Top5_RankFusion,"HistGradientBoosting,LightGBM,XGBoost,CatBoost,RandomForest",97,0.51,0.5518648891965484,0.48846675712347354
+PyPI -> NPM,123,ExtraTrees_MeanStd,ExtraTrees,97,0.58,0.58,0.4796472184531886

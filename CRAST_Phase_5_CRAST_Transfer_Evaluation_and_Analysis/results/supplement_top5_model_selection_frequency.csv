@@ -1,0 +1,7 @@
+model,selected_in_n_seeds
+CatBoost,10
+HistGradientBoosting,10
+XGBoost,10
+LightGBM,10
+ExtraTrees,9
+RandomForest,1

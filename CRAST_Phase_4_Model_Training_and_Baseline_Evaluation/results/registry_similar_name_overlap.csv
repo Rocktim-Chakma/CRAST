@@ -1,0 +1,6 @@
+npm_package,npm_label,npm_norm,pypi_package,pypi_label,pypi_norm,similarity
+basic-auth-2.0.1.tgz,0,basic-auth,basicauth-1.0.0,0,basicauth,0.9473684210526315
+date-utils-1.2.21.tgz,0,date-utils,dateutils-0.6.9,0,dateutils,0.9473684210526315
+compilre-9.3.5.tgz,1,compilre,compile-1.0.3,0,compile,0.9333333333333333
+client-0.0.1.tgz,0,client,clint-0.5.1,0,clint,0.9090909090909091
+crypto-ts-1.0.2.tgz,0,crypto-ts,crypto_otrs-1.0.8,0,crypto-otrs,0.9
