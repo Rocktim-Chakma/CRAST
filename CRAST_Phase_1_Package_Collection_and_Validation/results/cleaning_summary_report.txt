@@ -1,0 +1,71 @@
+CRAST CLEAN VERIFIED DATASET REPORT
+============================================================
+Original NPM shape: (1474, 167)
+Original PyPI shape: (1474, 167)
+Clean NPM shape: (1474, 132)
+Clean PyPI shape: (1474, 132)
+Clean combined shape: (2948, 132)
+
+Label balance:
+label       0    1
+registry          
+npm       737  737
+pypi      737  737
+
+Initial candidate features: 163
+Dropped columns: 34
+['EADDRNOTAVAIL_count', 'ECONNREFUSED_count', 'EISDIR_count', 'EPERM_count', 'EPIPE_count', 'exec_chmod_count', 'exec_node_tool_count', 'first_execve_offset', 'kill_count', 'late_connect_count', 'late_network_count', 'max_idle_gap', 'max_syscall_latency', 'mean_idle_gap', 'mean_syscall_latency', 'network_port_observed', 'num_processes_with_execve', 'num_processes_with_sensitive_path', 'num_processes_with_write', 'open_count', 'process_activity_entropy', 'sendmsg_count', 'syscall_latency_count', 'syscall_latency_total', 'touched_bashrc', 'touched_node_modules', 'touched_npmrc', 'touched_package_json', 'touched_package_manager_cache', 'touched_python_build_file', 'touched_python_package_metadata', 'touched_site_packages', 'touched_temp_executable', 'trace_time_span']
+Final clean features: 129
+
+Duplicate feature audit:
+  dataset  duplicate_feature_groups  cross_label_duplicate_groups
+0     NPM                         0                             0
+1    PyPI                         0                             0
+
+Single-feature AUC >= 0.98:
+None
+
+Best validation results:
+  dataset validation        model  accuracy_mean  accuracy_std  \
+0     NPM  normal_cv  Extra Trees       0.974221      0.004591   
+6    PyPI  normal_cv  Extra Trees       0.959982      0.010994   
+
+   precision_mean  precision_std  malicious_recall_mean  malicious_recall_std  \
+0        0.987605       0.010985               0.960655              0.005063   
+6        0.967120       0.014174               0.952556              0.014059   
+
+    f1_mean    f1_std  roc_auc_mean  roc_auc_std  
+0  0.973891  0.004487      0.992414     0.005101  
+6  0.959701  0.011034      0.988167     0.004967  
+
+Best group-CV results:
+  dataset               validation        model  accuracy_mean  accuracy_std  \
+2     NPM  package_family_group_cv  Extra Trees       0.970737      0.015521   
+8    PyPI  package_family_group_cv  Extra Trees       0.924429      0.030550   
+
+   precision_mean  precision_std  malicious_recall_mean  malicious_recall_std  \
+2        0.988366       0.005926               0.953081              0.026048   
+8        0.964347       0.014005               0.882210              0.047244   
+
+    f1_mean    f1_std  roc_auc_mean  roc_auc_std  
+2  0.970238  0.014996      0.989137     0.008648  
+8  0.921031  0.031442      0.969131     0.017089  
+
+Shuffled-label sanity:
+   dataset             validation          model  accuracy_mean  accuracy_std  \
+4      NPM  shuffled_label_sanity  Random Forest       0.506789      0.026040   
+5      NPM  shuffled_label_sanity    Extra Trees       0.497948      0.035084   
+10    PyPI  shuffled_label_sanity    Extra Trees       0.512229      0.014521   
+11    PyPI  shuffled_label_sanity  Random Forest       0.506810      0.022330   
+
+    precision_mean  precision_std  malicious_recall_mean  \
+4         0.506918       0.026157               0.495385   
+5         0.497943       0.036396               0.477689   
+10        0.512210       0.014513               0.522357   
+11        0.507239       0.022296               0.512861   
+
+    malicious_recall_std   f1_mean    f1_std  roc_auc_mean  roc_auc_std  
+4               0.050606  0.500182  0.033709      0.514357     0.021829  
+5               0.039888  0.487380  0.036654      0.507982     0.036143  
+10              0.018210  0.517068  0.013376      0.505717     0.023598  
+11              0.017605  0.509871  0.017925      0.494529     0.026855  

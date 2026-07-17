@@ -1,0 +1,3 @@
+registry,rows,features,missing_numeric_values,infinite_numeric_values,duplicate_package_names,benign_count,malicious_count
+NPM,1474,129,0,0,0,737,737
+PyPI,1474,129,0,0,0,737,737
