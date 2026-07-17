@@ -1,0 +1,17 @@
+{
+  "npm_final_feature_matrix": {
+    "path": "data/processed/npm_final_feature_matrix.csv",
+    "bytes": 980613,
+    "sha256": "8ed5180faa2c2e448406cb5f12e2085667f3b5be23cd2d03faefda3699aa04f6"
+  },
+  "pypi_final_feature_matrix": {
+    "path": "data/processed/pypi_final_feature_matrix.csv",
+    "bytes": 922281,
+    "sha256": "d63caa5b0fd2d6b8bcea733939bc5dc14bf9387a8b8ce63f98775c809ef01e86"
+  },
+  "combined_final_feature_matrix": {
+    "path": "data/processed/combined_final_feature_matrix.csv",
+    "bytes": 1900592,
+    "sha256": "a7ee1912a509d95ad50c6a49994eb396e8902c2274368b61cea8b067efe32ca9"
+  }
+}
