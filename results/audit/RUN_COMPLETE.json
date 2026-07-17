@@ -1,0 +1,13 @@
+{
+  "all_expected_results_within_tolerance": true,
+  "config_sha256": "416bb9e5ad9b840e17c941809ca7549a43c11969f355a9b7a7585353f37b0c4d",
+  "duration_seconds": 636.824654,
+  "interpretation": "This run confirms reproducibility under the timestamped frozen configuration. It is not retroactive proof of preregistration.",
+  "prediction_file_sha256": "077e2caff86b84f803444208538b14c727da6e6db96200bf6244244416858e18",
+  "result_comparison_status_counts": {
+    "PASS": 4
+  },
+  "run_end_utc": "2026-06-20T16:14:12.207315+00:00",
+  "run_id": "20260620T160335Z_56991b29",
+  "run_start_utc": "2026-06-20T16:03:35.382661+00:00"
+}

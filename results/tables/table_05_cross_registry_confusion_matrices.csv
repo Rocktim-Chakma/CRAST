@@ -1,0 +1,13 @@
+experiment,model,tn_benign_correct,fp_benign_as_malicious,fn_malicious_as_benign,tp_malicious_correct
+NPM -> PyPI,Logistic Regression,725,12,733,4
+NPM -> PyPI,SVM RBF,737,0,737,0
+NPM -> PyPI,Random Forest,176,561,255,482
+NPM -> PyPI,Extra Trees,737,0,675,62
+NPM -> PyPI,Gradient Boosting,0,737,0,737
+NPM -> PyPI,XGBoost,2,735,0,737
+PyPI -> NPM,Logistic Regression,4,733,0,737
+PyPI -> NPM,SVM RBF,737,0,737,0
+PyPI -> NPM,Random Forest,390,347,19,718
+PyPI -> NPM,Extra Trees,474,263,18,719
+PyPI -> NPM,Gradient Boosting,336,401,20,717
+PyPI -> NPM,XGBoost,508,229,53,684
