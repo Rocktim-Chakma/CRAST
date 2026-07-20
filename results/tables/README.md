@@ -15,10 +15,11 @@ tables in one place without navigating through the full phase structure.
 | `table_02_group_aware_same_registry_validation.csv` | Group-aware same-registry validation summary. |
 | `table_03_direct_cross_registry_baseline.csv` | Direct source-only NPM→PyPI and PyPI→NPM baseline results. |
 | `table_04_crast_final_transfer_summary.csv` | Final CRAST transfer summary for both cross-registry directions. |
-| `table_05_cross_registry_confusion_matrices.csv` | Confusion-matrix values for final cross-registry transfer. |
+| `table_05_cross_registry_confusion_matrices.csv` | Final CRAST confusion-matrix values for the best NPM→PyPI and PyPI→NPM transfer configurations. These values correspond to the manuscript confusion-matrix figure and are provided as an artifact table for reproducibility. |
 | `table_06_rank_fusion_ablation.csv` | Rank-fusion ablation summary. |
 | `table_07_gamma_sensitivity.csv` | Gamma sensitivity summary for registry-aware feature selection. |
 | `table_08_feature_group_ablation.csv` | Feature-group ablation summary. |
+| `supplement_direct_model_confusion_matrices.csv` | Direct model-wise confusion matrices from source-only transfer baselines, kept as supplementary audit output. |
 
 ## Note on Duplication
 
