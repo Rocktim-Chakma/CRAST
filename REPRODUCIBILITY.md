@@ -191,10 +191,10 @@ This phase documents the package-selection and label-validation stage.
 It includes final selected package lists for:
 
 ```text
-selected_packages/npm_malicious_selected.csv
-selected_packages/npm_benign_selected.csv
-selected_packages/pypi_malicious_selected.csv
-selected_packages/pypi_benign_selected.csv
+selected_package/npm_malicious_selected.csv
+selected_package/npm_benign_selected.csv
+selected_package/pypi_malicious_selected.csv
+selected_package/pypi_benign_selected.csv
 ```
 
 Candidate benign packages should be interpreted as presumed benign for the time
