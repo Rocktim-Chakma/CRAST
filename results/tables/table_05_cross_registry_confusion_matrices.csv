@@ -1,0 +1,3 @@
+direction,method,tn_benign_correct_mean,fp_benign_as_malicious_mean,fn_malicious_as_benign_mean,tp_malicious_correct_mean
+NPM -> PyPI,Top5_RankFusion,582.5,154.5,164.0,573.0
+PyPI -> NPM,ExtraTrees_MeanStd,733.8,3.2,86.1,650.9
