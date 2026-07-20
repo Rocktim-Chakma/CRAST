@@ -1,0 +1,3 @@
+registry,benign_selected,malicious_selected,total_selected,note
+NPM,737,737,1474,Final selected packages only; excluded candidates are not redistributed.
+PyPI,737,737,1474,Final selected packages only; excluded candidates are not redistributed.
