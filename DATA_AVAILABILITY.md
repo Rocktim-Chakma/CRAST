@@ -1,5 +1,22 @@
 # Data Availability
 
-The repository includes final processed feature matrices, code, result tables, figures, and audit metadata required to inspect and reproduce the paper-aligned experiments.
+This repository provides the public CRAST research artifact for the paper:
 
-Raw malicious package archives are not redistributed because they may contain executable malicious code. Full trace-level artifacts may also contain sensitive package execution details and are therefore handled with safety restrictions. The public artifact focuses on processed SysCall feature matrices and reproducible analysis code.
+**Unifying SysCall Behavior Across PyPI and NPM Registries for Malicious Package Detection**
+
+## Publicly Available Files
+
+The public artifact includes:
+
+- processed SysCall-derived feature matrices,
+- final selected package lists,
+- result tables,
+- manuscript figures,
+- experiment configuration files,
+- reproducible analysis scripts,
+- audit and verification metadata.
+
+The processed feature matrices are available under:
+
+```text
+data/processed/
