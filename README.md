@@ -102,7 +102,7 @@ CRAST/
 │   └── README.md
 │
 ├── CRAST_Phase_1_Package_Collection_and_Validation/
-│   ├── selected_packages/
+│   ├── selected_package/
 │   ├── summary/
 │   ├── validation_protocol.md
 │   └── README.md
