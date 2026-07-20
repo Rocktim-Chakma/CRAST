@@ -7,10 +7,10 @@ The released artifact provides the final selected package lists used in the
 experiments for four groups:
 
 ```text
-selected_packages/npm_malicious_selected.csv
-selected_packages/npm_benign_selected.csv
-selected_packages/pypi_malicious_selected.csv
-selected_packages/pypi_benign_selected.csv
+selected_package/npm_malicious_selected.csv
+selected_package/npm_benign_selected.csv
+selected_package/pypi_malicious_selected.csv
+selected_package/pypi_benign_selected.csv
 ```
 
 ## What This Phase Represents
