@@ -1,9 +1,0 @@
-dataset,column
-NPM,registry
-NPM,label
-NPM,connect_unix_socket_count
-NPM,socket_count
-PyPI,registry
-PyPI,label
-PyPI,connect_unix_socket_count
-PyPI,socket_count
