@@ -1,0 +1,3 @@
+direction,method,tp_malicious_correct,fn_malicious_as_benign,fp_benign_as_malicious,tn_benign_correct,manuscript_panel
+NPM -> PyPI,Top5_RankFusion,573,164,155,582,Figure 4(a)
+PyPI -> NPM,ExtraTrees_MeanStd,651,86,3,734,Figure 4(b)
