@@ -122,7 +122,6 @@ CRAST/
 │
 ├── results/
 │   ├── tables/
-│   ├── figures/
 │   └── audit/
 │
 ├── Figures/
@@ -246,7 +245,7 @@ configs/
 ```
 
 The public artifact includes processed SysCall-derived feature matrices, result
-tables, figures, audit metadata, and reproducible analysis code. Raw malicious
+tables, manuscript figures, audit metadata, and reproducible analysis code. Raw malicious
 package artifacts are not redistributed for safety reasons.
 
 ---
@@ -323,7 +322,7 @@ Key files include:
 ## Data Availability
 
 The public artifact includes processed SysCall-derived feature matrices, result
-tables, figures, audit files, and reproducible analysis code.
+tables, manuscript figures, audit files, and reproducible analysis code.
 
 Raw malicious package artifacts are not publicly released to avoid potential
 misuse and redistribution of harmful software.
