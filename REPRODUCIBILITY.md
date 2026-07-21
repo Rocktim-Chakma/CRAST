@@ -302,7 +302,7 @@ Do not execute unknown package artifacts outside a controlled and isolated
 analysis environment.
 
 The released artifact supports inspection and reproducibility through processed
-feature matrices, reusable code, result tables, figures, and audit files.
+feature matrices, reusable code, result tables, manuscript figures, and audit files.
 
 ---
 
