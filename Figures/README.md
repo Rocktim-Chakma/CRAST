@@ -1,34 +1,43 @@
-# Paper Figures
+# Manuscript Figures
 
-This folder contains paper-facing figure copies used for quick visual inspection
-of the CRAST artifact.
+This folder contains only the figures included in the CRAST manuscript:
 
-The numeric values behind the figures are available in the CSV result tables
-under `results/tables/`.
+**Unifying SysCall Behavior Across PyPI and NPM Registries for Malicious Package Detection**
 
-## Files
+The figures are provided in PDF format for manuscript submission and artifact
+inspection.
 
-| File | Purpose |
-|---|---|
-| `figure_01_confusion_matrix_npm_to_pypi.png` | Confusion matrix for the final NPM→PyPI CRAST transfer evaluation. |
-| `figure_02_confusion_matrix_pypi_to_npm.png` | Confusion matrix for the final PyPI→NPM CRAST transfer evaluation. |
-| `figure_03_final_cross_registry_performance.png` | Visual summary of final cross-registry transfer performance. |
+## Figure Files
 
-## Related Files
+| File | Manuscript Figure | Description |
+|---|---|---|
+| `figure_01_threat_model.pdf` | Figure 1 | CRAST threat model and cross-registry observation setting. |
+| `figure_02_crast_framework.pdf` | Figure 2 | Overall CRAST framework for SysCall-based malicious package detection across NPM and PyPI. |
+| `figure_03_execution_environment.pdf` | Figure 3 | Controlled execution and tracing environment used for install-time SysCall collection. |
+| `figure_04_confusion_matrices_npm_to_pypi.pdf` | Figure 4(a) | Confusion matrix for the best NPM→PyPI CRAST transfer configuration. |
+| `figure_05_confusion_matrices_pypi_to_npm.pdf` | Figure 4(b) | Confusion matrix for the best PyPI→NPM CRAST transfer configuration. |
 
-The machine-readable result values are stored under:
+## Notes
+
+Figures 1–3 are conceptual manuscript diagrams.
+
+The confusion-matrix panels are based on the final CRAST transfer results
+reported in:
 
 ```text
-results/tables/table_04_crast_final_transfer_summary.csv
 results/tables/table_05_cross_registry_confusion_matrices.csv
 ```
 
-Reviewer-friendly copies of the same figures are also available under:
+The confusion-matrix values correspond to the two final direction-specific CRAST
+configurations:
 
 ```text
-results/figures/
+NPM → PyPI: Top-5 percentile-rank fusion
+PyPI → NPM: Extra Trees with mean/std score alignment
 ```
 
-The `Figures/` folder is kept for paper-style artifact navigation, while
-`results/figures/` keeps the figures grouped with the rest of the generated
-result artifacts.
+Although the two confusion-matrix panels are stored as separate PDF files in
+this artifact, they correspond to the two panels of the same manuscript figure.
+
+This folder intentionally excludes exploratory, intermediate, or unused figures
+that are not included in the manuscript.
